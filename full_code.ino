@@ -64,6 +64,7 @@ void loop() {
         break;
 
       default:  // Else do nothing 
+        motor(0, 0);
         break;
     }
   }
